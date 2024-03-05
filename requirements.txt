@@ -1,0 +1,4 @@
+telethon==1.33.1
+watchdog==3.0.0
+asyncio==3.4.3
+clear-screen==0.1.14
