@@ -1,5 +1,3 @@
-import install
-
 from utils.user import User
 
 from clear_screen import clear
@@ -209,9 +207,8 @@ class Main():
 try:
     if __name__ == "__main__":
         Main()
+        input("\nНажмите ENTER что бы закрыть консоль.")
 
 except KeyboardInterrupt:
     input("\nНажмите ENTER что бы закрыть консоль.")
     sys.exit(1)
-
-input("\nНажмите ENTER что бы закрыть консоль.")
