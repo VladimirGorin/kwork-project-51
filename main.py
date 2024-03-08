@@ -2,6 +2,7 @@ from utils.user import User
 
 from clear_screen import clear
 from utils.statistics import get_stats_message, clear_stats
+from utils.groups import update_groups
 
 from multiprocessing import Pool
 
@@ -24,6 +25,7 @@ class Main():
         }
 
         clear_stats()
+
         self.start()
 
     def info_log(self, message):
@@ -53,6 +55,7 @@ class Main():
             self.sub_folder_count = int(self.read_file("./assets/data/sub_count.txt")[0])
             self.sessions = self.get_session("./assets/sessions/")
 
+            update_groups(self.groups)
         except Exception as e:
             self.error_log(f"Ошибка при чтение данных: {e}")
 
@@ -137,8 +140,13 @@ class Main():
             self.info_log(f"[{phone}] Ошибка оброботке сесси: {e}")
 
     def follow_groups(self, phone):
+        groups_count = 100
+
+        groups = self.groups[:groups_count]
+        self.groups = self.groups[groups_count:]
+
         try:
-                session = User(phone=phone, sub_folder_count=self.sub_folder_count, post_bot_id=self.post_id, groups=self.groups[:100], folder_links=self.folder_links, logger=self.logger)
+                session = User(phone=phone, sub_folder_count=self.sub_folder_count, post_bot_id=self.post_id, groups=groups, folder_links=self.folder_links, logger=self.logger)
 
 
                 if session.check_error(): return
@@ -147,8 +155,6 @@ class Main():
                 if session.check_error(): return
                 if not session.is_valid: return
 
-                self.groups = self.groups[100:]
-
                 session.follow_groups()
                 if session.check_error(): return
 
@@ -156,6 +162,8 @@ class Main():
             self.info_log(f"[{phone}] Ошибка оброботке сесси: {e}")
 
     def start(self):
+        self.get_data()
+
         self.info_log(f"Введите нужный номер\n\n{self.main_menu_titles}\n\n")
 
         try:
@@ -166,7 +174,6 @@ class Main():
             self.error_log("Введите число!")
 
         clear()
-        self.get_data()
 
         if main_menu_choice in self.menu_choices:
             self.execute_task(self.menu_choices[main_menu_choice])
@@ -210,5 +217,4 @@ try:
         input("\nНажмите ENTER что бы закрыть консоль.")
 
 except KeyboardInterrupt:
-    input("\nНажмите ENTER что бы закрыть консоль.")
     sys.exit(1)

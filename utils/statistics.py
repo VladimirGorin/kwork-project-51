@@ -19,7 +19,7 @@ def clear_stats():
         with open(stats_json_path, 'r') as file:
             data = json.load(file)
     except FileNotFoundError:
-        print("File not found.")
+        print("Файл не найден")
         return
 
     for key in data:

@@ -1,6 +1,7 @@
 from telethon.sync import TelegramClient
 from telethon import functions, types, errors
 from utils.statistics import update_stats
+from utils.groups import get_group_status, set_group_status
 
 import json, os, shutil, time, random
 
@@ -174,12 +175,27 @@ class User:
 
             for group in self.groups:
                 try:
+
+                    group_status = get_group_status(group)
+
+                    if group_status:
+                        self.info_log(f"Пропускаем группу уже используется: {group}")
+                        continue
+
+                    new_status = set_group_status(group, True)
+
+                    if not new_status:
+                        self.info_log(f"Ошибка при попытке установки нового статуса пропускаем: {group}")
+                        continue
+
                     self.join_group(group=group)
 
                     self.set_stats(["joined_groups", 1])
                     self.sub_groups.append(group)
 
                     self.info_log("Успешно зашли в группу: {}".format(group))
+
+
 
                 except (errors.FloodWaitError, errors.FloodError) as e:
                     self.flood_wait(e)
@@ -189,6 +205,7 @@ class User:
                     self.set_stats(["not_joined_groups", 1])
                     self.info_log(f"Ошибка при попытке входа в группу ({group}) продолжаем работу: {e}")
 
+                    continue
             try:
 
                 if len(self.sub_groups) > 0:
