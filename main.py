@@ -2,7 +2,7 @@ from utils.user import User
 
 from clear_screen import clear
 from utils.statistics import get_stats_message, clear_stats
-from utils.groups import update_groups
+from utils.groups import reset_ignored_groups
 
 from multiprocessing import Pool
 
@@ -25,6 +25,7 @@ class Main():
         }
 
         clear_stats()
+        reset_ignored_groups()
 
         self.start()
 
@@ -55,7 +56,6 @@ class Main():
             self.sub_folder_count = int(self.read_file("./assets/data/sub_count.txt")[0])
             self.sessions = self.get_session("./assets/sessions/")
 
-            update_groups(self.groups)
         except Exception as e:
             self.error_log(f"Ошибка при чтение данных: {e}")
 

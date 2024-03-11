@@ -1,63 +1,39 @@
-import json, time
+import time
 
-groups_json_path = './assets/groups.json'
+ignored_groups_txt_path = './assets/ignored_groups.txt'
 
-def update_groups(groups):
+def reset_ignored_groups():
     try:
         time.sleep(2)
 
-        data = []
-
-        for group in groups:
-            obj = {"group": group, "status": False}
-            data.append(obj)
-
-        with open(groups_json_path, 'w') as file:
-            json.dump(data, file, indent=4)
+        with open(ignored_groups_txt_path, 'w') as file:
+            file.write("")
 
         time.sleep(2)
 
     except Exception as e:
-        print(f"Ошибка при попытке чтение группы: {e}")
+        print(f"Ошибка при попытке записи групп: {e}")
         return None
 
-
-def get_group_status(group_name):
+def get_group_ignored_status(group_name):
     try:
         time.sleep(1)
-        with open(groups_json_path, 'r') as file:
-            data = json.load(file)
-            for obj in data:
-                if obj["group"] == group_name:
-                    return obj["status"]
-
-            return None
+        with open(ignored_groups_txt_path, 'r') as file:
+            for line in file:
+                if line.strip() == group_name:
+                    return True
+            return False
     except FileNotFoundError:
         print(f"Файл не найден")
         return None
     except Exception as e:
-        print(f"Ошибка при попытке чтение статуса группы: {e}")
+        print(f"Ошибка при попытке чтения статуса группы: {e}")
         return None
 
-def set_group_status(group_name, new_status):
+def set_group_ignor(group_name):
     try:
-        time.sleep(1)
-        with open(groups_json_path, 'r') as file:
-            data = json.load(file)
-
-        found = False
-        for obj in data:
-            if obj["group"] == group_name:
-                obj["status"] = new_status
-                found = True
-                break
-
-        if not found:
-            print(f"Группа '{group_name}' не найдена в файле")
-            return False
-
-        with open(groups_json_path, 'w') as file:
-            json.dump(data, file, indent=4)
+        with open(ignored_groups_txt_path, 'a') as file:
+            file.write(f"\n{group_name}")
 
         return True
 
@@ -65,5 +41,5 @@ def set_group_status(group_name, new_status):
         print(f"Файл не найден")
         return None
     except Exception as e:
-        print(f"Ошибка при попытке чтение статуса группы: {e}")
+        print(f"Ошибка при попытке установки статуса группы: {e}")
         return None

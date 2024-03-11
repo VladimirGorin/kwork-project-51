@@ -1,7 +1,7 @@
 from telethon.sync import TelegramClient
 from telethon import functions, types, errors
 from utils.statistics import update_stats
-from utils.groups import get_group_status, set_group_status
+from utils.groups import get_group_ignored_status, set_group_ignor
 
 import json, os, shutil, time, random
 
@@ -176,15 +176,17 @@ class User:
             for group in self.groups:
                 try:
 
-                    group_status = get_group_status(group)
+                    group_ignored_status = get_group_ignored_status(group)
 
-                    if group_status:
-                        self.info_log(f"Пропускаем группу уже используется: {group}")
+                    print(group_ignored_status)
+
+                    if group_ignored_status:
+                        self.info_log(f"Пропускаем группу уже использовалась: {group}")
                         continue
 
-                    new_status = set_group_status(group, True)
+                    ignored_status = set_group_ignor(group)
 
-                    if not new_status:
+                    if not ignored_status:
                         self.info_log(f"Ошибка при попытке установки нового статуса пропускаем: {group}")
                         continue
 
