@@ -2,15 +2,12 @@ from utils.user import User
 
 from clear_screen import clear
 from utils.statistics import get_stats_message, clear_stats
-from utils.groups import reset_ignored_groups, reset_temp_groups, get_temp_groups, set_temp_groups
+from utils.groups import reset_ignored_groups
 
 from multiprocessing import Pool
 
-import logging
-import sys
-import os
-import random
-import time
+import logging, sys, os, random, time
+
 
 
 class Main():
@@ -20,10 +17,8 @@ class Main():
 
         self.max_workers = 3
 
-        self.main_menu = [{"title": "[1] Проверка на валидность", "value": 1}, {"title": "[2] Подписка на группы и создание папок", "value": 2}, {
-            "title": "[3] Подписка на папки", "value": 3}, {"title": "[4] Рассылка", "value": 4}]
-        self.main_menu_titles = '\n'.join(
-            item["title"] for item in self.main_menu)
+        self.main_menu = [{"title": "[1] Проверка на валидность", "value": 1}, {"title": "[2] Подписка на группы и создание папок", "value": 2}, {"title": "[3] Подписка на папки", "value": 3}, {"title": "[4] Рассылка", "value": 4}]
+        self.main_menu_titles = '\n'.join(item["title"] for item in self.main_menu)
         self.main_menu_values = [item["value"] for item in self.main_menu]
         self.menu_choices = {
             1: self.validation_sessions,
@@ -34,7 +29,6 @@ class Main():
 
         clear_stats()
         reset_ignored_groups()
-        reset_temp_groups()
 
         self.start()
 
@@ -60,14 +54,11 @@ class Main():
     def get_data(self):
         try:
             self.groups = self.read_file("./assets/data/groups.txt")
-            self.folder_links = self.read_file(
-                "./assets/data/folder_links.txt")
+            self.folder_links = self.read_file("./assets/data/folder_links.txt")
             self.post_id = self.read_file("./assets/data/post_id.txt")[0]
-            self.sub_folder_count = int(
-                self.read_file("./assets/data/sub_count.txt")[0])
+            self.sub_folder_count = int(self.read_file("./assets/data/sub_count.txt")[0])
             self.sessions = self.get_session("./assets/sessions/")
 
-            set_temp_groups(self.groups)
 
         except Exception as e:
             self.error_log(f"Ошибка при чтение данных: {e}")
@@ -82,8 +73,7 @@ class Main():
 
     def execute_task(self, task_function):
         with Pool(processes=self.max_workers) as pool:
-            pool.starmap(self.run_task, [(phone, task_function)
-                         for phone in self.sessions])
+            pool.starmap(self.run_task, [(phone, task_function) for phone in self.sessions])
 
         pool.close()
         pool.join()
@@ -91,19 +81,7 @@ class Main():
         self.info_log("Все потоки завершили выполнение.")
 
     def run_task(self, phone, task):
-        get_groups_count = 100
-        random_time = random.randrange(1, 10)
-
-        self.info_log(f"[{phone}] Спим что бы разделить группы: {random_time} sec")
-
-        time.sleep(random_time)
-        self.groups = get_temp_groups()
-
-        works_groups = self.groups[:get_groups_count]
-        del self.groups[:get_groups_count]
-        set_temp_groups(self.groups)
-
-        task(phone, works_groups)
+        task(phone)
 
         # try:
         #     session = User(phone=phone, sub_folder_count=self.sub_folder_count, post_bot_id=self.post_id, groups=self.groups[:100], folder_links=self.folder_links, logger=self.logger)
@@ -116,82 +94,81 @@ class Main():
         #     print(e)
         #     return
 
-    def join_to_folders(self, phone, groups):
+
+    def join_to_folders(self, phone):
         try:
-            session = User(phone=phone, sub_folder_count=self.sub_folder_count, post_bot_id=self.post_id,
-                           groups=groups, folder_links=self.folder_links, logger=self.logger)
-            if session.check_error():
-                return
+            session = User(phone=phone, sub_folder_count=self.sub_folder_count, post_bot_id=self.post_id, groups=self.groups[:100], folder_links=self.folder_links, logger=self.logger)
+            if session.check_error(): return
 
             session.session_valid()
-            if session.check_error():
-                return
-            if not session.is_valid:
-                return
+            if session.check_error(): return
+            if not session.is_valid: return
+
+
 
             session.join_folder()
-            if session.check_error():
-                return
+            if session.check_error(): return
         except Exception as e:
             self.info_log(f"[{phone}] Ошибка оброботке сесси: {e}")
 
-    def send_messages(self, phone, groups):
+    def send_messages(self, phone):
 
         try:
-            session = User(phone=phone, sub_folder_count=self.sub_folder_count, post_bot_id=self.post_id,
-                           groups=groups, folder_links=self.folder_links, logger=self.logger)
+                session = User(phone=phone, sub_folder_count=self.sub_folder_count, post_bot_id=self.post_id, groups=self.groups[:100], folder_links=self.folder_links, logger=self.logger)
 
-            if session.check_error():
-                return
-            session.session_valid()
+                if session.check_error(): return
+                session.session_valid()
 
-            if session.check_error():
-                return
-            if not session.is_valid:
-                return
+                if session.check_error(): return
+                if not session.is_valid: return
 
-            self.groups = self.groups[100:]
+                self.groups = self.groups[100:]
 
-            session.send_messages()
-            if session.check_error():
-                return
+                session.send_messages()
+                if session.check_error(): return
 
         except Exception as e:
             self.info_log(f"[{phone}] Ошибка оброботке сесси: {e}")
 
     def validation_sessions(self, phone):
         try:
-            session = User(phone=phone, sub_folder_count=self.sub_folder_count, post_bot_id=self.post_id,
-                           groups=self.groups[:100], folder_links=self.folder_links, logger=self.logger)
+                session = User(phone=phone, sub_folder_count=self.sub_folder_count, post_bot_id=self.post_id, groups=self.groups[:100], folder_links=self.folder_links, logger=self.logger)
 
-            if session.check_error():
-                return
-            session.session_valid()
+                if session.check_error(): return
+                session.session_valid()
 
-            if session.check_error():
-                session.del_invalid_session()
+                if session.check_error():
+                    session.del_invalid_session()
 
         except Exception as e:
             self.info_log(f"[{phone}] Ошибка оброботке сесси: {e}")
 
-    def follow_groups(self, phone, groups):
+    def follow_groups(self, phone):
+        get_groups_count = 100
+        random_time = random.randrange(1, 15)
+
+        # self.info_log(f"[{phone}] Спим что бы разделить группы: {random_time} sec")
+        # time.sleep(random_time)
+
+        print(f"\nold: {len(self.groups)}")
+
+        groups = self.groups[:get_groups_count]
+        del self.groups[:get_groups_count]
+
+        print(f"new: {len(self.groups)}\ngived: {len(groups)}\n\n")
 
         try:
-            session = User(phone=phone, sub_folder_count=self.sub_folder_count, post_bot_id=self.post_id,
-                           groups=groups, folder_links=self.folder_links, logger=self.logger)
+                session = User(phone=phone, sub_folder_count=self.sub_folder_count, post_bot_id=self.post_id, groups=groups, folder_links=self.folder_links, logger=self.logger)
 
-            if session.check_error():
-                return
-            session.session_valid()
 
-            if session.check_error():
-                return
-            if not session.is_valid:
-                return
+                if session.check_error(): return
+                session.session_valid()
 
-            session.follow_groups()
-            if session.check_error():
-                return
+                if session.check_error(): return
+                if not session.is_valid: return
+
+                session.follow_groups()
+                if session.check_error(): return
 
         except Exception as e:
             self.info_log(f"[{phone}] Ошибка оброботке сесси: {e}")
@@ -224,6 +201,8 @@ class Main():
         # elif main_menu_choice == 4:
         #     self.send_messages()
 
+
+
         try:
             self.stats_log()
         except Exception as e:
@@ -237,14 +216,12 @@ class Main():
         file_handler = logging.FileHandler(filename=log_file, encoding="utf-8")
         file_handler.setLevel(logging.DEBUG)
 
-        formatter = logging.Formatter(
-            '%(asctime)s - %(levelname)s - %(message)s')
+        formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
         file_handler.setFormatter(formatter)
 
         logger.addHandler(file_handler)
 
         return logger
-
 
 try:
     if __name__ == "__main__":

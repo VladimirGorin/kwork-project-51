@@ -4670,3 +4670,442 @@
 2024-03-12 02:18:03,299 - INFO - [+12406659822] Пропускаем группу уже использовалась: https://t.me/vapebaraxolkaabakan
 2024-03-12 02:18:03,648 - INFO - [+12407494792] Пропускаем группу уже использовалась: https://t.me/vapebaraxolkaabakan
 2024-03-12 02:18:03,877 - INFO - [+12407564992] Успешно зашли в группу: https://t.me/vapebaraxolkaabakan
+2024-03-12 14:55:25,178 - INFO - [+12407963487] Начинаем работу.
+2024-03-12 14:55:25,179 - INFO - [+12407582113] Начинаем работу.
+2024-03-12 14:55:25,179 - INFO - [+12407128637] Начинаем работу.
+2024-03-12 14:55:26,194 - INFO - [+12407582113] Аккаунт валидный
+2024-03-12 14:55:26,195 - INFO - [+12407963487] Аккаунт валидный
+2024-03-12 14:55:26,199 - INFO - [+12407128637] Аккаунт валидный
+2024-03-12 14:55:26,199 - ERROR - [+12407128637] Ошибка при попытке проверки валидации аккаунт не валидный: Expecting value: line 1 column 1 (char 0)
+2024-03-12 14:55:26,199 - INFO - [+12407128637] Завершаем работу для этого аккаунта
+2024-03-12 14:55:26,199 - INFO - [+12406659822] Начинаем работу.
+2024-03-12 14:55:27,011 - INFO - [+12407582113] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 14:55:27,016 - INFO - [+12407963487] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 14:55:27,213 - INFO - [+12406659822] Аккаунт валидный
+2024-03-12 14:55:27,395 - INFO - [+12407963487] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 14:55:27,401 - INFO - [+12407582113] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 14:55:27,621 - INFO - [+12407963487] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 14:55:27,622 - INFO - [+12407582113] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 14:55:28,031 - INFO - [+12407582113] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 14:55:28,035 - ERROR - [+12406659822] Ошибка при попытке работы с группой: Expecting value: line 1 column 1 (char 0)
+2024-03-12 14:55:28,035 - INFO - [+12406659822] Завершаем работу для этого аккаунта
+2024-03-12 14:55:28,036 - INFO - [+12407419575] Начинаем работу.
+2024-03-12 14:55:28,036 - INFO - [+12407963487] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 14:55:40,701 - INFO - [+12406657563] Начинаем работу.
+2024-03-12 14:55:40,701 - INFO - [+12407628408] Начинаем работу.
+2024-03-12 14:55:40,702 - INFO - [+12406657552] Начинаем работу.
+2024-03-12 14:55:41,756 - INFO - [+12406657563] Аккаунт валидный
+2024-03-12 14:55:41,756 - INFO - [+12406657552] Аккаунт валидный
+2024-03-12 14:55:41,756 - INFO - [+12407628408] Аккаунт валидный
+2024-03-12 14:55:42,574 - INFO - [+12407628408] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 14:55:42,574 - INFO - [+12406657563] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 14:55:42,574 - INFO - [+12406657552] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 14:55:42,985 - INFO - [+12407628408] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 14:55:42,985 - INFO - [+12406657563] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 14:55:42,985 - INFO - [+12406657552] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 14:55:43,191 - INFO - [+12407628408] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 14:55:43,191 - INFO - [+12406657563] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 14:55:43,218 - INFO - [+12406657552] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 14:55:43,520 - INFO - [+12407628408] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 14:55:43,525 - INFO - [+12406657563] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 14:55:43,551 - INFO - [+12406657552] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 14:55:43,979 - ERROR - [+12407628408] Ошибка при попытке работы с группой: Expecting value: line 1 column 1 (char 0)
+2024-03-12 14:55:43,979 - INFO - [+12406657563] Ошибка при попытке входа в группу (https://t.me/vapebaraxolkaabakan) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 14:55:43,979 - INFO - [+12407628408] Завершаем работу для этого аккаунта
+2024-03-12 14:55:43,979 - INFO - [+12407289329] Начинаем работу.
+2024-03-12 14:55:44,417 - INFO - [+12406657563] Успешно зашли в группу: https://t.me/mining19club
+2024-03-12 14:55:44,622 - INFO - [+12406657563] Успешно зашли в группу: https://t.me/obyavleniyaabakan
+2024-03-12 14:55:45,031 - INFO - [+12407289329] Аккаунт валидный
+2024-03-12 14:55:45,036 - INFO - [+12406657563] Успешно зашли в группу: https://t.me/doska_obyavlenij_abakan
+2024-03-12 14:55:45,543 - INFO - [+12406657563] Успешно зашли в группу: https://t.me/neftyannik001
+2024-03-12 14:55:46,063 - INFO - [+12406657563] Успешно зашли в группу: https://t.me/azovkids
+2024-03-12 14:55:46,063 - INFO - [+12407289329] Успешно зашли в группу: https://t.me/talk_arkhangelsk
+2024-03-12 14:55:46,467 - INFO - [+12406657563] Успешно зашли в группу: https://t.me/the_wro
+2024-03-12 14:55:46,467 - INFO - [+12407289329] Успешно зашли в группу: https://t.me/doska_obyavlenij_arhangelsk
+2024-03-12 14:55:46,727 - INFO - [+12406657563] Успешно зашли в группу: https://t.me/azov_kupi
+2024-03-12 14:55:47,033 - INFO - [+12407289329] Успешно зашли в группу: https://t.me/astrakhan_komissionka
+2024-03-12 14:55:47,125 - INFO - [+12406657563] Успешно зашли в группу: https://t.me/azovbaraholka
+2024-03-12 14:55:47,195 - INFO - [+12407289329] Ошибка при попытке входа в группу (https://t.me/astrakhan_chat_top) продолжаем работу: No user has "astrakhan_chat_top" as username
+2024-03-12 14:55:48,512 - INFO - [+12406657552] Успешно зашли в группу: https://t.me/vapebaraxolkaabakan
+2024-03-12 14:55:50,523 - INFO - [+12406657563] Ошибка при попытке входа в группу (https://t.me/reklama161rus) продолжаем работу: You have successfully requested to join this chat or channel (caused by JoinChannelRequest)
+2024-03-12 14:55:50,967 - INFO - [+12407289329] Успешно зашли в группу: https://t.me/astr_ob
+2024-03-12 14:55:50,973 - INFO - [+12406657563] Успешно зашли в группу: https://t.me/baraholkaazov
+2024-03-12 14:55:51,381 - INFO - [+12406657563] Успешно зашли в группу: https://t.me/baraholka_geroev
+2024-03-12 14:55:51,791 - INFO - [+12406657563] Ошибка при попытке входа в группу (https://t.me/baraholka_stolichka) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 14:55:52,199 - INFO - [+12406657563] Успешно зашли в группу: https://t.me/baraholkamoskvamo
+2024-03-12 14:55:53,429 - INFO - [+12406657552] Успешно зашли в группу: https://t.me/mining19club
+2024-03-12 14:55:55,065 - INFO - [+12407289329] Успешно зашли в группу: https://t.me/rabota_astrahan_chat_podrabotka
+2024-03-12 14:55:55,884 - INFO - [+12406657563] Успешно зашли в группу: https://t.me/kids7_9_tashkent
+2024-03-12 15:01:09,341 - INFO - [+12532035223] Начинаем работу.
+2024-03-12 15:01:09,341 - INFO - [+12528012749] Начинаем работу.
+2024-03-12 15:01:09,341 - INFO - [+12528012750] Начинаем работу.
+2024-03-12 15:01:10,367 - INFO - [+12532035223] Аккаунт валидный
+2024-03-12 15:01:10,367 - INFO - [+12528012750] Аккаунт валидный
+2024-03-12 15:01:10,367 - INFO - [+12528012749] Аккаунт валидный
+2024-03-12 15:01:11,187 - INFO - [+12532035223] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:01:11,187 - INFO - [+12528012750] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:01:11,187 - INFO - [+12528012749] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:01:11,586 - INFO - [+12532035223] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:01:11,591 - ERROR - [+12528012750] Ошибка при попытке работы с группой: Expecting value: line 1 column 1 (char 0)
+2024-03-12 15:01:11,591 - INFO - [+12528012750] Завершаем работу для этого аккаунта
+2024-03-12 15:01:11,592 - INFO - [+12527253105] Начинаем работу.
+2024-03-12 15:01:11,592 - INFO - [+12528012749] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:01:11,795 - INFO - [+12528012749] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 15:01:11,799 - INFO - [+12532035223] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 15:01:12,205 - INFO - [+12532035223] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 15:01:12,205 - INFO - [+12528012749] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 15:01:12,614 - INFO - [+12527253105] Аккаунт валидный
+2024-03-12 15:01:12,614 - ERROR - [+12527253105] Ошибка при попытке проверки валидации аккаунт не валидный: Expecting value: line 1 column 1 (char 0)
+2024-03-12 15:01:12,614 - INFO - [+12527253105] Завершаем работу для этого аккаунта
+2024-03-12 15:01:12,614 - INFO - [+12528012749] Ошибка при попытке входа в группу (https://t.me/vapebaraxolkaabakan) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 15:01:12,614 - INFO - [+12532035223] Ошибка при попытке входа в группу (https://t.me/vapebaraxolkaabakan) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 15:01:12,615 - INFO - [+12526766970] Начинаем работу.
+2024-03-12 15:01:13,126 - INFO - [+12528012749] Успешно зашли в группу: https://t.me/mining19club
+2024-03-12 15:01:13,126 - INFO - [+12532035223] Успешно зашли в группу: https://t.me/mining19club
+2024-03-12 15:01:13,537 - INFO - [+12528012749] Успешно зашли в группу: https://t.me/obyavleniyaabakan
+2024-03-12 15:01:13,701 - INFO - [+12526766970] Аккаунт валидный
+2024-03-12 15:01:13,776 - INFO - [+12532035223] Успешно зашли в группу: https://t.me/obyavleniyaabakan
+2024-03-12 15:01:14,255 - INFO - [+12528012749] Успешно зашли в группу: https://t.me/doska_obyavlenij_abakan
+2024-03-12 15:01:14,458 - INFO - [+12526766970] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:01:14,862 - INFO - [+12526766970] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:01:15,074 - INFO - [+12526766970] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 15:01:15,477 - INFO - [+12526766970] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 15:01:15,891 - INFO - [+12526766970] Ошибка при попытке входа в группу (https://t.me/vapebaraxolkaabakan) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 15:01:16,297 - INFO - [+12526766970] Успешно зашли в группу: https://t.me/mining19club
+2024-03-12 15:01:16,502 - INFO - [+12526766970] Успешно зашли в группу: https://t.me/obyavleniyaabakan
+2024-03-12 15:01:16,706 - INFO - [+12526766970] Успешно зашли в группу: https://t.me/doska_obyavlenij_abakan
+2024-03-12 15:01:16,916 - INFO - [+12526766970] Успешно зашли в группу: https://t.me/neftyannik001
+2024-03-12 15:01:17,118 - INFO - [+12526766970] Успешно зашли в группу: https://t.me/azovkids
+2024-03-12 15:01:17,282 - INFO - [+12526766970] Успешно зашли в группу: https://t.me/the_wro
+2024-03-12 15:01:17,531 - INFO - [+12526766970] Успешно зашли в группу: https://t.me/azov_kupi
+2024-03-12 15:01:17,700 - INFO - [+12526766970] Успешно зашли в группу: https://t.me/azovbaraholka
+2024-03-12 15:01:17,706 - INFO - [+12532035223] Успешно зашли в группу: https://t.me/doska_obyavlenij_abakan
+2024-03-12 15:01:17,943 - INFO - [+12526766970] Ошибка при попытке входа в группу (https://t.me/reklama161rus) продолжаем работу: You have successfully requested to join this chat or channel (caused by JoinChannelRequest)
+2024-03-12 15:01:18,150 - INFO - [+12528012749] Успешно зашли в группу: https://t.me/neftyannik001
+2024-03-12 15:01:18,247 - INFO - [+12526766970] Успешно зашли в группу: https://t.me/baraholkaazov
+2024-03-12 15:01:18,482 - INFO - [+12528012749] Успешно зашли в группу: https://t.me/azovkids
+2024-03-12 15:01:18,526 - INFO - [+12526766970] Успешно зашли в группу: https://t.me/baraholka_geroev
+2024-03-12 15:01:18,681 - INFO - [+12526766970] Ошибка при попытке входа в группу (https://t.me/baraholka_stolichka) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 15:01:18,843 - INFO - [+12528012749] Успешно зашли в группу: https://t.me/the_wro
+2024-03-12 15:01:18,843 - INFO - [+12526766970] Успешно зашли в группу: https://t.me/baraholkamoskvamo
+2024-03-12 15:01:19,061 - INFO - [+12526766970] Успешно зашли в группу: https://t.me/kids7_9_tashkent
+2024-03-12 15:01:21,622 - INFO - [+12532035223] Успешно зашли в группу: https://t.me/neftyannik001
+2024-03-12 15:01:22,547 - INFO - [+12528012749] Ошибка при попытке входа в группу (https://t.me/azov_kupi) продолжаем работу: You have successfully requested to join this chat or channel (caused by JoinChannelRequest)
+2024-03-12 15:01:22,757 - INFO - [+12526766970] Успешно зашли в группу: https://t.me/rasskazovo_detki
+2024-03-12 15:01:22,958 - INFO - [+12528012749] Успешно зашли в группу: https://t.me/azovbaraholka
+2024-03-12 15:01:26,230 - INFO - [+12532035223] Успешно зашли в группу: https://t.me/azovkids
+2024-03-12 15:01:26,643 - INFO - [+12528012749] Ошибка при попытке входа в группу (https://t.me/reklama161rus) продолжаем работу: You have successfully requested to join this chat or channel (caused by JoinChannelRequest)
+2024-03-12 15:01:27,398 - INFO - [+12526766970] Успешно зашли в группу: https://t.me/obyavlenie_azov
+2024-03-12 15:01:31,121 - INFO - [+12532035223] Успешно зашли в группу: https://t.me/the_wro
+2024-03-12 15:01:31,441 - INFO - [+12528012749] Успешно зашли в группу: https://t.me/baraholkaazov
+2024-03-12 15:01:31,552 - INFO - [+12532035223] Ошибка спим 283 секунд : A wait of 283 seconds is required (caused by JoinChannelRequest)
+2024-03-12 15:01:31,739 - INFO - [+12526766970] Ошибка при попытке входа в группу (https://t.me/loverasskazovo) продолжаем работу: You have successfully requested to join this chat or channel (caused by JoinChannelRequest)
+2024-03-12 15:01:31,767 - INFO - [+12528012749] Ошибка спим 1019 секунд : A wait of 1019 seconds is required (caused by JoinChannelRequest)
+2024-03-12 15:01:36,162 - INFO - [+12526766970] Ошибка при попытке входа в группу (https://t.me/baraholka_stomat_24) продолжаем работу: You have successfully requested to join this chat or channel (caused by JoinChannelRequest)
+2024-03-12 15:01:36,373 - INFO - [+12526766970] Ошибка спим 282 секунд : A wait of 282 seconds is required (caused by JoinChannelRequest)
+2024-03-12 15:08:16,386 - INFO - [+12532082938] Начинаем работу.
+2024-03-12 15:08:17,475 - INFO - [+12532082938] Аккаунт валидный
+2024-03-12 15:08:18,303 - INFO - [+12532082938] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:08:18,387 - INFO - [+12527236761] Начинаем работу.
+2024-03-12 15:08:18,638 - INFO - [+12532082938] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:08:18,796 - INFO - [+12532082938] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 15:08:19,131 - INFO - [+12532082938] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 15:08:19,216 - INFO - [+12527236761] Аккаунт валидный
+2024-03-12 15:08:19,456 - INFO - [+12532082938] Ошибка при попытке входа в группу (https://t.me/vapebaraxolkaabakan) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 15:08:19,796 - INFO - [+12532082938] Успешно зашли в группу: https://t.me/mining19club
+2024-03-12 15:08:19,868 - INFO - [+12527236761] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:08:20,186 - INFO - [+12527236761] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:08:20,341 - INFO - [+12527236761] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 15:08:20,546 - INFO - [+12532082938] Успешно зашли в группу: https://t.me/obyavleniyaabakan
+2024-03-12 15:08:20,750 - INFO - [+12527236761] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 15:08:20,957 - INFO - [+12532082938] Успешно зашли в группу: https://t.me/doska_obyavlenij_abakan
+2024-03-12 15:08:21,161 - INFO - [+12527236761] Ошибка при попытке входа в группу (https://t.me/vapebaraxolkaabakan) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 15:08:21,366 - INFO - [+12532082938] Успешно зашли в группу: https://t.me/neftyannik001
+2024-03-12 15:08:21,387 - INFO - [+12527399713] Начинаем работу.
+2024-03-12 15:08:21,571 - INFO - [+12527236761] Успешно зашли в группу: https://t.me/mining19club
+2024-03-12 15:08:22,210 - INFO - [+12527236761] Успешно зашли в группу: https://t.me/obyavleniyaabakan
+2024-03-12 15:08:22,388 - INFO - [+12527399713] Аккаунт валидный
+2024-03-12 15:08:23,207 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:08:23,624 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:08:24,130 - INFO - [+12527399713] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 15:08:24,540 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 15:08:24,861 - INFO - [+12527399713] Ошибка при попытке входа в группу (https://t.me/vapebaraxolkaabakan) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 15:08:24,961 - INFO - [+12532082938] Успешно зашли в группу: https://t.me/azovkids
+2024-03-12 15:08:25,182 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/mining19club
+2024-03-12 15:08:25,768 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/obyavleniyaabakan
+2024-03-12 15:08:25,984 - INFO - [+12527236761] Успешно зашли в группу: https://t.me/doska_obyavlenij_abakan
+2024-03-12 15:08:28,744 - INFO - [+12532082938] Успешно зашли в группу: https://t.me/the_wro
+2024-03-12 15:08:29,558 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/doska_obyavlenij_abakan
+2024-03-12 15:08:29,769 - INFO - [+12527236761] Успешно зашли в группу: https://t.me/neftyannik001
+2024-03-12 15:08:32,347 - INFO - [+12532082938] Ошибка при попытке входа в группу (https://t.me/azov_kupi) продолжаем работу: You have successfully requested to join this chat or channel (caused by JoinChannelRequest)
+2024-03-12 15:08:33,345 - INFO - [+12527236761] Успешно зашли в группу: https://t.me/azovkids
+2024-03-12 15:08:34,341 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/neftyannik001
+2024-03-12 15:08:37,338 - INFO - [+12532082938] Успешно зашли в группу: https://t.me/azovbaraholka
+2024-03-12 15:08:37,732 - INFO - [+12532082938] Ошибка спим 594 секунд : A wait of 594 seconds is required (caused by JoinChannelRequest)
+2024-03-12 15:08:38,159 - INFO - [+12527236761] Успешно зашли в группу: https://t.me/the_wro
+2024-03-12 15:08:38,566 - INFO - [+12527236761] Ошибка спим 284 секунд : A wait of 284 seconds is required (caused by JoinChannelRequest)
+2024-03-12 15:08:38,979 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/azovkids
+2024-03-12 15:08:42,867 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/the_wro
+2024-03-12 15:08:43,282 - INFO - [+12527399713] Ошибка спим 283 секунд : A wait of 283 seconds is required (caused by JoinChannelRequest)
+2024-03-12 15:13:23,243 - INFO - [+12527236761] Успешно зашли в группу: https://t.me/azovbaraholka
+2024-03-12 15:13:26,863 - INFO - [+12527236761] Ошибка при попытке входа в группу (https://t.me/reklama161rus) продолжаем работу: You have successfully requested to join this chat or channel (caused by JoinChannelRequest)
+2024-03-12 15:13:26,901 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/azovbaraholka
+2024-03-12 15:13:30,421 - INFO - [+12527399713] Ошибка при попытке входа в группу (https://t.me/reklama161rus) продолжаем работу: You have successfully requested to join this chat or channel (caused by JoinChannelRequest)
+2024-03-12 15:13:30,625 - INFO - [+12527236761] Успешно зашли в группу: https://t.me/baraholkaazov
+2024-03-12 15:13:35,324 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/baraholkaazov
+2024-03-12 15:13:35,408 - INFO - [+12527236761] Успешно зашли в группу: https://t.me/baraholka_geroev
+2024-03-12 15:13:39,215 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/baraholka_geroev
+2024-03-12 15:13:39,935 - INFO - [+12527236761] Успешно зашли в группу: https://t.me/baraholka_stolichka
+2024-03-12 15:13:40,342 - INFO - [+12527236761] Ошибка спим 1482 секунд : A wait of 1482 seconds is required (caused by JoinChannelRequest)
+2024-03-12 15:13:42,904 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/baraholka_stolichka
+2024-03-12 15:13:43,300 - INFO - [+12527399713] Ошибка спим 1483 секунд : A wait of 1483 seconds is required (caused by JoinChannelRequest)
+2024-03-12 15:15:51,488 - INFO - [+12528012750] Начинаем работу.
+2024-03-12 15:15:51,488 - INFO - [+12532082938] Начинаем работу.
+2024-03-12 15:15:51,488 - INFO - [+12528012745] Начинаем работу.
+2024-03-12 15:15:52,495 - INFO - [+12528012750] Аккаунт валидный
+2024-03-12 15:15:52,499 - INFO - [+12528012745] Аккаунт валидный
+2024-03-12 15:15:52,583 - INFO - [+12532082938] Аккаунт валидный
+2024-03-12 15:15:53,258 - INFO - [+12528012750] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:15:53,258 - INFO - [+12528012745] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:15:53,462 - INFO - [+12532082938] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:15:53,670 - INFO - [+12528012745] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:15:53,673 - INFO - [+12528012750] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:15:53,837 - ERROR - [+12528012750] Ошибка при попытке работы с группой: Expecting value: line 1 column 1 (char 0)
+2024-03-12 15:15:53,837 - INFO - [+12532082938] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:15:53,838 - INFO - [+12528012750] Завершаем работу для этого аккаунта
+2024-03-12 15:15:53,838 - INFO - [+12532034860] Начинаем работу.
+2024-03-12 15:15:53,839 - INFO - [+12528012745] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 15:15:54,077 - INFO - [+12532082938] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 15:15:54,281 - INFO - [+12528012745] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 15:15:54,488 - INFO - [+12532082938] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 15:15:54,692 - INFO - [+12528012745] Ошибка при попытке входа в группу (https://t.me/vapebaraxolkaabakan) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 15:15:54,849 - INFO - [+12532034860] Аккаунт валидный
+2024-03-12 15:15:54,857 - INFO - [+12532082938] Ошибка при попытке входа в группу (https://t.me/vapebaraxolkaabakan) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 15:15:55,107 - INFO - [+12528012745] Успешно зашли в группу: https://t.me/mining19club
+2024-03-12 15:15:55,336 - INFO - [+12532082938] Успешно зашли в группу: https://t.me/mining19club
+2024-03-12 15:15:55,717 - INFO - [+12532082938] Успешно зашли в группу: https://t.me/obyavleniyaabakan
+2024-03-12 15:15:55,717 - ERROR - [+12528012745] Ошибка при попытке работы с группой: Expecting value: line 1 column 1 (char 0)
+2024-03-12 15:15:55,717 - INFO - [+12528012745] Завершаем работу для этого аккаунта
+2024-03-12 15:15:55,717 - INFO - [+12527253105] Начинаем работу.
+2024-03-12 15:15:55,722 - INFO - [+12532034860] Успешно зашли в группу: https://t.me/talk_arkhangelsk
+2024-03-12 15:15:56,089 - INFO - [+12532082938] Успешно зашли в группу: https://t.me/doska_obyavlenij_abakan
+2024-03-12 15:15:56,534 - INFO - [+12532082938] Успешно зашли в группу: https://t.me/neftyannik001
+2024-03-12 15:15:56,740 - INFO - [+12527253105] Аккаунт валидный
+2024-03-12 15:15:56,943 - INFO - [+12532082938] Успешно зашли в группу: https://t.me/azovkids
+2024-03-12 15:15:57,354 - INFO - [+12532082938] Успешно зашли в группу: https://t.me/the_wro
+2024-03-12 15:15:57,558 - INFO - [+12527253105] Успешно зашли в группу: https://t.me/talk_arkhangelsk
+2024-03-12 15:15:57,763 - INFO - [+12532082938] Ошибка спим 154 секунд : A wait of 154 seconds is required (caused by JoinChannelRequest)
+2024-03-12 15:15:59,606 - INFO - [+12532034860] Успешно зашли в группу: https://t.me/doska_obyavlenij_arhangelsk
+2024-03-12 15:16:02,473 - INFO - [+12527253105] Успешно зашли в группу: https://t.me/doska_obyavlenij_arhangelsk
+2024-03-12 15:16:04,215 - INFO - [+12532034860] Успешно зашли в группу: https://t.me/astrakhan_komissionka
+2024-03-12 15:16:04,418 - INFO - [+12532034860] Ошибка при попытке входа в группу (https://t.me/astrakhan_chat_top) продолжаем работу: No user has "astrakhan_chat_top" as username
+2024-03-12 15:16:07,087 - INFO - [+12527253105] Успешно зашли в группу: https://t.me/astrakhan_komissionka
+2024-03-12 15:16:07,321 - INFO - [+12527253105] Ошибка при попытке входа в группу (https://t.me/astrakhan_chat_top) продолжаем работу: No user has "astrakhan_chat_top" as username
+2024-03-12 15:16:09,438 - INFO - [+12532034860] Успешно зашли в группу: https://t.me/astr_ob
+2024-03-12 15:16:11,279 - INFO - [+12527253105] Успешно зашли в группу: https://t.me/astr_ob
+2024-03-12 15:16:13,532 - INFO - [+12532034860] Успешно зашли в группу: https://t.me/rabota_astrahan_chat_podrabotka
+2024-03-12 15:16:13,942 - INFO - [+12532034860] Ошибка спим 283 секунд : A wait of 283 seconds is required (caused by JoinChannelRequest)
+2024-03-12 15:16:15,377 - INFO - [+12527253105] Успешно зашли в группу: https://t.me/rabota_astrahan_chat_podrabotka
+2024-03-12 15:16:15,785 - INFO - [+12527253105] Ошибка спим 283 секунд : A wait of 283 seconds is required (caused by JoinChannelRequest)
+2024-03-12 15:20:59,101 - INFO - [+12527024046] Начинаем работу.
+2024-03-12 15:20:59,102 - INFO - [+12532130051] Начинаем работу.
+2024-03-12 15:20:59,102 - INFO - [+12527395330] Начинаем работу.
+2024-03-12 15:21:00,149 - INFO - [+12527395330] Аккаунт валидный
+2024-03-12 15:21:00,150 - INFO - [+12532130051] Аккаунт валидный
+2024-03-12 15:21:00,150 - INFO - [+12527024046] Аккаунт валидный
+2024-03-12 15:21:00,151 - ERROR - [+12527024046] Ошибка при попытке проверки валидации аккаунт не валидный: Expecting value: line 1 column 1 (char 0)
+2024-03-12 15:21:00,151 - INFO - [+12527024046] Завершаем работу для этого аккаунта
+2024-03-12 15:21:00,151 - INFO - [+12528012745] Начинаем работу.
+2024-03-12 15:21:01,073 - INFO - [+12527395330] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:21:01,275 - INFO - [+12528012745] Аккаунт валидный
+2024-03-12 15:21:01,281 - INFO - [+12532130051] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:21:01,481 - INFO - [+12527395330] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:21:01,642 - INFO - [+12527395330] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 15:21:02,005 - INFO - [+12527395330] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 15:21:02,005 - INFO - [+12528012745] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:21:02,411 - INFO - [+12527395330] Ошибка при попытке входа в группу (https://t.me/vapebaraxolkaabakan) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 15:21:02,411 - INFO - [+12528012745] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:21:02,615 - INFO - [+12528012745] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 15:21:02,819 - INFO - [+12527395330] Успешно зашли в группу: https://t.me/mining19club
+2024-03-12 15:21:03,019 - INFO - [+12528012745] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 15:21:03,222 - INFO - [+12527395330] Успешно зашли в группу: https://t.me/obyavleniyaabakan
+2024-03-12 15:21:03,425 - INFO - [+12528012745] Ошибка при попытке входа в группу (https://t.me/vapebaraxolkaabakan) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 15:21:03,631 - INFO - [+12527395330] Успешно зашли в группу: https://t.me/doska_obyavlenij_abakan
+2024-03-12 15:21:03,798 - INFO - [+12528012745] Успешно зашли в группу: https://t.me/mining19club
+2024-03-12 15:21:04,041 - INFO - [+12527395330] Успешно зашли в группу: https://t.me/neftyannik001
+2024-03-12 15:21:04,245 - INFO - [+12528012745] Успешно зашли в группу: https://t.me/obyavleniyaabakan
+2024-03-12 15:21:04,450 - INFO - [+12527395330] Успешно зашли в группу: https://t.me/azovkids
+2024-03-12 15:21:04,860 - INFO - [+12527395330] Успешно зашли в группу: https://t.me/the_wro
+2024-03-12 15:21:04,865 - INFO - [+12528012745] Успешно зашли в группу: https://t.me/doska_obyavlenij_abakan
+2024-03-12 15:21:05,107 - INFO - [+12532130051] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:21:05,270 - INFO - [+12527395330] Успешно зашли в группу: https://t.me/azov_kupi
+2024-03-12 15:21:05,296 - INFO - [+12532130051] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 15:21:05,608 - INFO - [+12527395330] Успешно зашли в группу: https://t.me/azovbaraholka
+2024-03-12 15:21:58,602 - INFO - [+12528012745] Начинаем работу.
+2024-03-12 15:21:58,603 - INFO - [+12528012750] Начинаем работу.
+2024-03-12 15:21:58,603 - INFO - [+12532034860] Начинаем работу.
+2024-03-12 15:21:59,643 - INFO - [+12532034860] Аккаунт валидный
+2024-03-12 15:21:59,644 - INFO - [+12528012750] Аккаунт валидный
+2024-03-12 15:21:59,644 - INFO - [+12528012745] Аккаунт валидный
+2024-03-12 15:22:00,465 - INFO - [+12528012745] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:22:00,465 - INFO - [+12528012750] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:22:00,750 - INFO - [+12532034860] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:22:00,836 - INFO - [+12528012745] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:22:00,865 - INFO - [+12528012750] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:22:00,997 - INFO - [+12528012745] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 15:22:01,024 - INFO - [+12528012750] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 15:22:01,322 - INFO - [+12528012745] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 15:22:01,354 - INFO - [+12528012750] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 15:22:01,795 - INFO - [+12528012750] Ошибка при попытке входа в группу (https://t.me/vapebaraxolkaabakan) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 15:22:01,795 - INFO - [+12528012745] Ошибка при попытке входа в группу (https://t.me/vapebaraxolkaabakan) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 15:22:02,206 - INFO - [+12528012750] Успешно зашли в группу: https://t.me/mining19club
+2024-03-12 15:22:02,206 - INFO - [+12528012745] Успешно зашли в группу: https://t.me/mining19club
+2024-03-12 15:22:02,614 - INFO - [+12528012750] Успешно зашли в группу: https://t.me/obyavleniyaabakan
+2024-03-12 15:22:02,614 - INFO - [+12528012745] Успешно зашли в группу: https://t.me/obyavleniyaabakan
+2024-03-12 15:22:03,024 - INFO - [+12528012745] Успешно зашли в группу: https://t.me/doska_obyavlenij_abakan
+2024-03-12 15:22:03,282 - INFO - [+12528012750] Успешно зашли в группу: https://t.me/doska_obyavlenij_abakan
+2024-03-12 15:24:58,537 - INFO - [+12528863095] Начинаем работу.
+2024-03-12 15:24:58,537 - INFO - [+12532082938] Начинаем работу.
+2024-03-12 15:24:58,538 - INFO - [+12532130051] Начинаем работу.
+2024-03-12 15:24:59,560 - INFO - [+12532130051] Аккаунт валидный
+2024-03-12 15:24:59,561 - INFO - [+12528863095] Аккаунт валидный
+2024-03-12 15:24:59,561 - INFO - [+12532082938] Аккаунт валидный
+2024-03-12 15:25:00,380 - INFO - [+12528863095] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:25:00,382 - ERROR - [+12532082938] Ошибка при попытке работы с группой: Expecting value: line 1 column 1 (char 0)
+2024-03-12 15:25:00,382 - INFO - [+12532082938] Завершаем работу для этого аккаунта
+2024-03-12 15:25:00,382 - INFO - [+12527024046] Начинаем работу.
+2024-03-12 15:25:00,386 - INFO - [+12532130051] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:25:00,789 - INFO - [+12528863095] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:25:00,794 - INFO - [+12532130051] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:25:00,994 - INFO - [+12528863095] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 15:25:00,999 - INFO - [+12532130051] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 15:25:17,796 - INFO - [+12527399713] Начинаем работу.
+2024-03-12 15:25:17,796 - INFO - [+12526766970] Начинаем работу.
+2024-03-12 15:25:17,796 - INFO - [+12527024046] Начинаем работу.
+2024-03-12 15:25:18,812 - INFO - [+12527024046] Аккаунт валидный
+2024-03-12 15:25:18,812 - INFO - [+12526766970] Аккаунт валидный
+2024-03-12 15:25:18,812 - INFO - [+12527399713] Аккаунт валидный
+2024-03-12 15:25:19,633 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:25:19,633 - INFO - [+12527024046] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:25:19,640 - INFO - [+12526766970] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:25:20,043 - INFO - [+12527024046] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:25:20,043 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:25:20,043 - INFO - [+12526766970] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:25:20,245 - INFO - [+12527024046] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 15:25:20,246 - ERROR - [+12526766970] Ошибка при попытке работы с группой: Expecting value: line 1 column 1 (char 0)
+2024-03-12 15:25:20,246 - INFO - [+12526766970] Завершаем работу для этого аккаунта
+2024-03-12 15:25:20,246 - INFO - [+12528012749] Начинаем работу.
+2024-03-12 15:25:20,250 - INFO - [+12527399713] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 15:25:20,655 - INFO - [+12527024046] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 15:25:20,660 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 15:25:21,169 - INFO - [+12527024046] Ошибка при попытке входа в группу (https://t.me/vapebaraxolkaabakan) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 15:25:21,169 - INFO - [+12527399713] Ошибка при попытке входа в группу (https://t.me/vapebaraxolkaabakan) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 15:35:53,234 - INFO - [+12526766970] Начинаем работу.
+2024-03-12 15:35:53,234 - INFO - [+12527399713] Начинаем работу.
+2024-03-12 15:35:53,234 - INFO - [+12527027606] Начинаем работу.
+2024-03-12 15:35:54,311 - INFO - [+12526766970] Аккаунт валидный
+2024-03-12 15:35:54,313 - INFO - [+12527399713] Аккаунт валидный
+2024-03-12 15:35:54,313 - INFO - [+12527027606] Аккаунт валидный
+2024-03-12 15:35:54,722 - INFO - [+12527399713] Пропускаем создание папки так как групп для подписки меньше чем 0
+2024-03-12 15:35:54,722 - INFO - [+12527027606] Пропускаем создание папки так как групп для подписки меньше чем 0
+2024-03-12 15:35:54,722 - INFO - [+12526766970] Пропускаем создание папки так как групп для подписки меньше чем 0
+2024-03-12 15:35:54,726 - INFO - [+12532035223] Начинаем работу.
+2024-03-12 15:35:54,726 - INFO - [+12532082938] Начинаем работу.
+2024-03-12 15:35:54,726 - INFO - [+12527024046] Начинаем работу.
+2024-03-12 15:35:55,746 - INFO - [+12532035223] Аккаунт валидный
+2024-03-12 15:35:55,746 - INFO - [+12527024046] Аккаунт валидный
+2024-03-12 15:35:55,746 - INFO - [+12532082938] Аккаунт валидный
+2024-03-12 15:35:56,163 - INFO - [+12532035223] Пропускаем создание папки так как групп для подписки меньше чем 0
+2024-03-12 15:35:56,171 - INFO - [+12527024046] Пропускаем создание папки так как групп для подписки меньше чем 0
+2024-03-12 15:35:56,171 - INFO - [+12528863095] Начинаем работу.
+2024-03-12 15:35:56,171 - INFO - [+12532082938] Пропускаем создание папки так как групп для подписки меньше чем 0
+2024-03-12 15:35:56,173 - INFO - [+12528012750] Начинаем работу.
+2024-03-12 15:35:56,174 - INFO - [+12528012745] Начинаем работу.
+2024-03-12 15:36:36,770 - INFO - [+12528863095] Начинаем работу.
+2024-03-12 15:36:36,770 - INFO - [+12528012750] Начинаем работу.
+2024-03-12 15:36:36,770 - INFO - [+12526768426] Начинаем работу.
+2024-03-12 15:36:37,833 - INFO - [+12526768426] Аккаунт валидный
+2024-03-12 15:36:37,833 - INFO - [+12528012750] Аккаунт валидный
+2024-03-12 15:36:37,834 - ERROR - [+12528012750] Ошибка при попытке проверки валидации аккаунт не валидный: Expecting value: line 1 column 1 (char 0)
+2024-03-12 15:36:37,834 - INFO - [+12528012750] Завершаем работу для этого аккаунта
+2024-03-12 15:36:37,834 - INFO - [+12528863095] Аккаунт валидный
+2024-03-12 15:36:37,835 - INFO - [+12528012741] Начинаем работу.
+2024-03-12 15:36:38,653 - INFO - [+12528863095] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:36:38,653 - INFO - [+12526768426] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 15:36:39,062 - INFO - [+12526768426] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:36:39,063 - INFO - [+12528863095] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 15:36:39,267 - INFO - [+12526768426] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 15:36:39,272 - INFO - [+12528863095] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 15:36:39,677 - INFO - [+12526768426] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 15:36:39,677 - INFO - [+12528863095] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 15:36:39,881 - INFO - [+12528012741] Аккаунт валидный
+2024-03-12 15:36:40,086 - INFO - [+12526768426] Ошибка при попытке входа в группу (https://t.me/vapebaraxolkaabakan) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 15:36:40,091 - INFO - [+12528863095] Ошибка при попытке входа в группу (https://t.me/vapebaraxolkaabakan) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 15:36:40,293 - INFO - [+12528012741] Ошибка при попытке входа в группу (                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          https://t.me/liptovape) продолжаем работу: Cannot find any entity corresponding to "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          https://t.me/liptovape"
+2024-03-12 15:36:40,496 - INFO - [+12526768426] Успешно зашли в группу: https://t.me/mining19club
+2024-03-12 15:36:40,496 - INFO - [+12528863095] Успешно зашли в группу: https://t.me/mining19club
+2024-03-12 15:36:40,916 - INFO - [+12528012741] Успешно зашли в группу: https://t.me/vapebh_vlg
+2024-03-12 15:36:41,111 - INFO - [+12526768426] Успешно зашли в группу: https://t.me/obyavleniyaabakan
+2024-03-12 15:36:41,111 - INFO - [+12528863095] Успешно зашли в группу: https://t.me/obyavleniyaabakan
+2024-03-12 15:36:41,476 - INFO - [+12528863095] Успешно зашли в группу: https://t.me/doska_obyavlenij_abakan
+2024-03-12 15:56:46,724 - INFO - 
+Отправлено всего сообщений: 0
+    
+НЕ отправлено сообщений всего: 0
+    
+
+Зашли в группу всего: 0
+    
+НЕ смогли зайти в группы всего: 0
+    
+
+Создано папок всего: 0
+    
+Всего зашли в папки: 0
+    
+Всего валидных сессий: 0
+    
+Всего не валидных сессий: 0
+    
+2024-03-12 16:05:41,923 - INFO - [+12527253105] Начинаем работу.
+2024-03-12 16:05:41,923 - INFO - [+12527399713] Начинаем работу.
+2024-03-12 16:05:43,055 - INFO - [+12527253105] Аккаунт валидный
+2024-03-12 16:05:43,056 - INFO - [+12527399713] Аккаунт валидный
+2024-03-12 16:05:43,875 - INFO - [+12527253105] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 16:05:43,875 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/abakantop19
+2024-03-12 16:05:44,246 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 16:05:44,257 - INFO - [+12527253105] Успешно зашли в группу: https://t.me/abakanraboty
+2024-03-12 16:05:44,489 - INFO - [+12527399713] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 16:05:44,494 - INFO - [+12527253105] Ошибка при попытке входа в группу (https://t.me/avtorynok_abakana) продолжаем работу: Nobody is using this username, or the username is unacceptable. If the latter, it must match r"[a-zA-Z][\w\d]{3,30}[a-zA-Z\d]" (caused by ResolveUsernameRequest)
+2024-03-12 16:05:44,899 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 16:05:44,899 - INFO - [+12527253105] Успешно зашли в группу: https://t.me/baraholka_abakan
+2024-03-12 16:05:44,923 - INFO - [+12527027606] Начинаем работу.
+2024-03-12 16:05:45,327 - INFO - [+12527399713] Ошибка при попытке входа в группу (https://t.me/vapebaraxolkaabakan) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 16:05:45,529 - INFO - [+12527253105] Ошибка при попытке входа в группу (https://t.me/vapebaraxolkaabakan) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 16:05:45,734 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/mining19club
+2024-03-12 16:05:45,910 - INFO - [+12527253105] Успешно зашли в группу: https://t.me/mining19club
+2024-03-12 16:05:46,025 - INFO - [+12527027606] Аккаунт валидный
+2024-03-12 16:05:46,066 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/obyavleniyaabakan
+2024-03-12 16:05:46,402 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/doska_obyavlenij_abakan
+2024-03-12 16:05:46,543 - INFO - [+12527253105] Успешно зашли в группу: https://t.me/obyavleniyaabakan
+2024-03-12 16:05:46,752 - INFO - [+12527027606] Успешно зашли в группу: https://t.me/talk_arkhangelsk
+2024-03-12 16:05:46,946 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/neftyannik001
+2024-03-12 16:05:47,153 - INFO - [+12527027606] Успешно зашли в группу: https://t.me/doska_obyavlenij_arhangelsk
+2024-03-12 16:05:47,314 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/azovkids
+2024-03-12 16:05:47,562 - INFO - [+12527027606] Успешно зашли в группу: https://t.me/astrakhan_komissionka
+2024-03-12 16:05:47,766 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/the_wro
+2024-03-12 16:05:47,766 - ERROR - [+12527027606] Ошибка при попытке работы с группой: Expecting value: line 1 column 1 (char 0)
+2024-03-12 16:05:47,766 - INFO - [+12527027606] Завершаем работу для этого аккаунта
+2024-03-12 16:05:47,972 - INFO - [+12527399713] Ошибка при попытке входа в группу (https://t.me/azov_kupi) продолжаем работу: You have successfully requested to join this chat or channel (caused by JoinChannelRequest)
+2024-03-12 16:05:48,380 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/azovbaraholka
+2024-03-12 16:05:51,396 - INFO - [+12527253105] Успешно зашли в группу: https://t.me/doska_obyavlenij_abakan
+2024-03-12 16:05:51,965 - INFO - [+12527399713] Ошибка при попытке входа в группу (https://t.me/reklama161rus) продолжаем работу: You have successfully requested to join this chat or channel (caused by JoinChannelRequest)
+2024-03-12 16:05:52,376 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/baraholkaazov
+2024-03-12 16:05:52,767 - INFO - [+12528012750] Начинаем работу.
+2024-03-12 16:05:52,771 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/baraholka_geroev
+2024-03-12 16:05:53,193 - INFO - [+12527399713] Ошибка при попытке входа в группу (https://t.me/baraholka_stolichka) продолжаем работу: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by JoinChannelRequest)
+2024-03-12 16:05:53,807 - INFO - [+12528012750] Аккаунт валидный
+2024-03-12 16:05:54,933 - INFO - [+12528012750] Успешно зашли в группу: https://t.me/obyavleniya_bataiska
+2024-03-12 16:05:55,139 - INFO - [+12528012750] Ошибка при попытке входа в группу (https://t.me/x6xwzzu1cz1iztcy) продолжаем работу: No user has "x6xwzzu1cz1iztcy" as username
+2024-03-12 16:05:56,367 - INFO - [+12527253105] Успешно зашли в группу: https://t.me/neftyannik001
+2024-03-12 16:05:56,789 - INFO - [+12527399713] Успешно зашли в группу: https://t.me/baraholkamoskvamo

@@ -178,8 +178,6 @@ class User:
 
                     group_ignored_status = get_group_ignored_status(group)
 
-                    print(group_ignored_status)
-
                     if group_ignored_status:
                         self.info_log(f"Пропускаем группу уже использовалась: {group}")
                         continue
