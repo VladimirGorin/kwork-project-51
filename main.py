@@ -92,7 +92,7 @@ class Main():
 
     def run_task(self, phone, task):
         get_groups_count = 100
-        random_time = random.randrange(1, 10)
+        random_time = random.randrange(1, 15)
 
         self.info_log(f"[{phone}] Спим что бы разделить группы: {random_time} sec")
 
