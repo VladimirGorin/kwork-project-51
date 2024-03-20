@@ -136,13 +136,29 @@ class User:
         groups_entities = [self.client.get_input_entity(url) for url in groups]
         folder_id = random.randint(10, 99)
 
+        valid_groups = []
+
+        self.info_log("Проверка групп на валидность")
+
+        for entity in groups_entities:
+            try:
+                self.client(functions.channels.GetChannelsRequest(entity))
+                valid_groups.append(entity)
+            except Exception as e:
+                self.info_log(f"Группа не валидна пропускаем: {e}")
+                continue
+
+        if not valid_groups:
+            raise Exception("Все группы недоступны. Невозможно создать папку.")
+
+
         folder = self.client(functions.messages.UpdateDialogFilterRequest(
             id=folder_id,
             filter=types.DialogFilter(
                 id=folder_id,
                 title=f'folder_{folder_id}',
                     pinned_peers=[],
-                    include_peers=groups_entities,
+                    include_peers=valid_groups,
                     exclude_peers=[],
                     contacts=False,
                     non_contacts=False,
@@ -161,7 +177,7 @@ class User:
                 filter_id=folder_id
             ),
             title=f'link_{folder_id}',
-            peers=groups_entities
+            peers=valid_groups
         ))
 
         folder_link = folder_invite.invite.url
@@ -172,6 +188,9 @@ class User:
     def follow_groups(self):
         try:
             self.client.connect()
+
+            t_joined = 0
+            self.info_log(f"\n\nt-gived-groups:{len(self.groups)}\n\n")
 
             for group in self.groups:
                 try:
@@ -190,6 +209,8 @@ class User:
 
                     self.join_group(group=group)
 
+                    t_joined += 1
+
                     self.set_stats(["joined_groups", 1])
                     self.sub_groups.append(group)
 
@@ -206,6 +227,8 @@ class User:
                     self.info_log(f"Ошибка при попытке входа в группу ({group}) продолжаем работу: {e}")
 
                     continue
+
+            self.info_log(f"\n\nT-joined: {t_joined}\n\n")
             try:
 
                 if len(self.sub_groups) > 0:
