@@ -136,21 +136,6 @@ class User:
         groups_entities = [self.client.get_input_entity(url) for url in groups]
         folder_id = random.randint(10, 99)
 
-        valid_groups = []
-
-        self.info_log("Проверка групп на валидность")
-
-        for entity in groups_entities:
-            try:
-                self.client(functions.channels.GetChannelsRequest(entity))
-                valid_groups.append(entity)
-            except Exception as e:
-                self.info_log(f"Группа не валидна пропускаем: {e}")
-                continue
-
-        if not valid_groups:
-            raise Exception("Все группы недоступны. Невозможно создать папку.")
-
 
         folder = self.client(functions.messages.UpdateDialogFilterRequest(
             id=folder_id,
@@ -158,7 +143,7 @@ class User:
                 id=folder_id,
                 title=f'folder_{folder_id}',
                     pinned_peers=[],
-                    include_peers=valid_groups,
+                    include_peers=groups,
                     exclude_peers=[],
                     contacts=False,
                     non_contacts=False,
@@ -177,7 +162,7 @@ class User:
                 filter_id=folder_id
             ),
             title=f'link_{folder_id}',
-            peers=valid_groups
+            peers=groups
         ))
 
         folder_link = folder_invite.invite.url
@@ -191,6 +176,31 @@ class User:
 
             t_joined = 0
             self.info_log(f"\n\nt-gived-groups:{len(self.groups)}\n\n")
+
+            valid_groups = []
+
+            self.info_log("Проверка групп на валидность")
+
+            for group in self.groups:
+                try:
+                    self.client(functions.channels.GetChannelsRequest([group]))
+                    self.info_log(f"Группа валидная: {group}")
+                    valid_groups.append(group)
+
+                except (errors.FloodWaitError, errors.FloodError) as e:
+                    self.flood_wait(e)
+                    pass
+
+                except Exception as e:
+                    self.info_log(f"Группа не валидна пропускаем: {e}")
+                    continue
+
+            if not valid_groups:
+                raise Exception("Все группы недоступны. Невозможно создать папку.")
+
+            self.info_log(f"Проверка валидации заверщена всего валидных групп из 100: {len(valid_groups)}")
+
+            self.groups = valid_groups
 
             for group in self.groups:
                 try:

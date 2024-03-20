@@ -159,7 +159,7 @@ class Main():
         except Exception as e:
             self.info_log(f"[{phone}] Ошибка оброботке сесси: {e}")
 
-    def validation_sessions(self, phone):
+    def validation_sessions(self, phone, works_groups = None):
         try:
             session = User(phone=phone, sub_folder_count=self.sub_folder_count, post_bot_id=self.post_id,
                            groups=self.groups[:100], folder_links=self.folder_links, logger=self.logger)
