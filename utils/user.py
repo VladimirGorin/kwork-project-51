@@ -200,7 +200,6 @@ class User:
             self.client.connect()
 
             t_joined = 0
-            self.info_log(f"\n\nt-gived-groups:{len(self.groups)}\n\n")
 
             valid_groups = []
 
@@ -263,7 +262,6 @@ class User:
 
                     continue
 
-            self.info_log(f"\n\nT-joined: {t_joined}\n\n")
             try:
 
                 if len(self.sub_groups) > 0:
