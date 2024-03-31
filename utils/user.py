@@ -197,7 +197,7 @@ class User:
             try:
 
                 self.client.send_message(peer, "Привет всем.")
-                self.info_log(f"Группа корректная: {peer.username}")
+                self.info_log(f"Группа корректная: {peer}")
 
                 valid_peers.append(peer)
 
