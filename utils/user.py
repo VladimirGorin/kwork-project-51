@@ -196,8 +196,10 @@ class User:
         for peer in include_peers:
             try:
 
-                self.client.send_message(peer, "Привет всем.")
-                self.info_log(f"Группа корректная: {peer}")
+                get_group_entity = self.client.get_entity(peer)
+                group_admin_rights = get_group_entity.admin_rights
+
+                self.info_log(f"Группа корректная: {group_admin_rights}\n{get_group_entity}")
 
                 valid_peers.append(peer)
 
